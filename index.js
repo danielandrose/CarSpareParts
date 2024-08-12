@@ -10,7 +10,7 @@ const mongoose=require("mongoose")
 //mongodb+srv://Daniel:dan123@cluster0.ptelakr.mongodb.net/e_commerce
 //mongodb://localhost:27017
 mongoose.connect(
-    `mongodb://localhost:27017/e_commerce`
+    `mongodb+srv://Daniel:dan123@cluster0.ptelakr.mongodb.net/e_commerce`
 ).then(()=>{
     console.log("connected to database")
 })
